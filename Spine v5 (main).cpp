@@ -84,8 +84,6 @@ int main()
 		net_graph = copy_dist_to_lmrk(Graph, net_graph);
 	}
 
-
-
 	Graph = Assign_Nodes(Landmark_id, Graph, id_index);
 
 	tie(Landmark_id, Graph) = Clean_Up_Lmrks(Landmark_id, Graph, id_index);
