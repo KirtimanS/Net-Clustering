@@ -15,7 +15,7 @@ public:
 	vector <int> neighbors, dist_to_lmrk;
 };
 
-//function declarations - since there are many modules, using just one header file
+//function declarations - since there are many modules, using just one header file for all declarations
 tuple <vector <Node>, map <int, int> > Pop_Graph(map <int, vector <int>>);
 map <int, vector <int>> Pop_Map();
 vector <Node> clean_dist_lmrk(vector <Node>);
