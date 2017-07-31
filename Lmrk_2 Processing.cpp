@@ -3,8 +3,6 @@
 #include"Header.h"
 #include<random>
 
-
-
 int farthest_lmrk(vector <int> leaves, vector <Node> Graph, map <int, int> id_map)
 {
 	int max = 0, max_leaf = NULL;
