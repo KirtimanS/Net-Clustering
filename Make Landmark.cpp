@@ -18,7 +18,7 @@ vector <Node> clean_dist_lmrk(vector <Node> Graph)
 
 tuple <int, vector <int>> Add_New_Landmark(set <int> leaf_set, vector <Node> lmrk_graph, map <int, int> lmrk_id_index, set <int> net)
 {
-	vector <int> leaves(leaf_set.begin(), leaf_set.end());
+	vector <int> leaves(leaf_set.begin(), leaf_set.end()), dummy;
 	vector <Node> lmrk_graph_dupli = lmrk_graph;
 	int infinite = (pow(2, 31) - 1), foundSpine = 0, distance_to_spine;
 	deque <Node> bfs_queue;
@@ -107,7 +107,7 @@ tuple <int, vector <int>> Add_New_Landmark(set <int> leaf_set, vector <Node> lmr
 
 	if (equidistant && assign_conflict)
 	{
-		return tuple <int, vector <int>>(NULL, NULL);
+		return tuple <int, vector <int>>(NULL, dummy);
 	}
 
 	else
