@@ -10,7 +10,7 @@ all:
 	$(CC) $(CFLAGS) Display.cpp
 	$(CC) $(CFLAGS) Spine\ v5-main.cpp
 	
-	g++ Graph\ Generator.o Graph\ Explorer.o Eligible\ Lmrks.o Lmrk_2\ Processing.o Make\ Landmark.o Restrictions\ and\ Clean\ Up.o Display.o Spine\ v5-main.o -o net\ clustering
+	g++ Graph\ Generator.o Graph\ Explorer.o Eligible\ Lmrks.o Lmrk_2\ Processing.o Make\ Landmark.o Restrictions\ and\ Clean\ Up.o Display.o Spine\ v5-main.o -o net_clustering.bin
 
 clean:
 	rm -f Graph\ Generator.o 
@@ -21,5 +21,5 @@ clean:
 	rm -f Restrictions\ and\ Clean\ Up.o 
 	rm -f Display.o 
 	rm -f Spine\ v5-main.o 
-	rm -f net\ clustering
+	rm -f net_clustering.bin
 
