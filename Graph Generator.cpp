@@ -42,7 +42,6 @@ map <int, vector <int>> Pop_Map()
 
 	while (getline(cin, line)) 
 	{
-
 		istringstream buffer(line);
 
 		int num;
