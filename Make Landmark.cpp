@@ -1,5 +1,3 @@
-#include "stdafx.h"
-
 #include "Header.h"
 #include<deque>
 #include<iterator>

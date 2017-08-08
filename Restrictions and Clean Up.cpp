@@ -1,6 +1,3 @@
-#include "stdafx.h"
-
-
 #include "Header.h"
 #include <string>
 #include<random>
