@@ -46,13 +46,12 @@ map <int, vector <int>> Pop_Map()
 		buffer >> num;
 
 		auto it = al.insert(make_pair(num, AdjacencyList::mapped_type())).first;
-
+		
 		while (!buffer.eof()) 
 		{
 		    buffer >> num;
 		    it->second.push_back(num);
         	}
-
     }
 	return (al);
 }
