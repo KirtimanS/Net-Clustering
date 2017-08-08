@@ -35,9 +35,7 @@ tuple <vector <Node>, map <int, int> > Pop_Graph(map <int, vector <int>> adj)
 map <int, vector <int>> Pop_Map()
 {
 	typedef map<int, vector<int> > AdjacencyList;
-
 	string line;
-
 	AdjacencyList al;
 
 	while (getline(cin, line)) 
@@ -49,11 +47,11 @@ map <int, vector <int>> Pop_Map()
 
 		auto it = al.insert(make_pair(num, AdjacencyList::mapped_type())).first;
 
-		while (!buffer.eof()) {
-
+		while (!buffer.eof()) 
+		{
 		    buffer >> num;
 		    it->second.push_back(num);
-        }
+        	}
 
     }
 	return (al);
