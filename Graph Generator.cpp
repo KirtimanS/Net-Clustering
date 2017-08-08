@@ -40,27 +40,22 @@ map <int, vector <int>> Pop_Map()
 
 	AdjacencyList al;
 
-	while (getline(cin, line)) {
+	while (getline(cin, line)) 
+	{
 
-        // cout << line << endl;
+		istringstream buffer(line);
 
-        istringstream buffer(line);
+		int num;
+		buffer >> num;
 
-        int num;
+		auto it = al.insert(make_pair(num, AdjacencyList::mapped_type())).first;
 
-        buffer >> num;
+		while (!buffer.eof()) {
 
-        auto it = al.insert(make_pair(num, AdjacencyList::mapped_type())).first;
-
-        while (!buffer.eof()) {
-
-            buffer >> num;
-
-            it->second.push_back(num);
-
+		    buffer >> num;
+		    it->second.push_back(num);
         }
 
     }
-
 	return (al);
 }
