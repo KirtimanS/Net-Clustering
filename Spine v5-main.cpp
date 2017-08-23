@@ -19,7 +19,15 @@ int main()
 
 	typedef map<int, vector<int> > adjacency_template;
 	adjacency_template adj_list;
-	adj_list = Pop_Map();
+	
+	try
+	{
+		adj_list = Pop_Map();
+	}
+	catch(int n)
+	{
+		return 0;
+	}
 	tie(Graph, id_index) = Pop_Graph(adj_list);
 
 	tie(Graph, spine_end_1, dummy_set) = BFS(Graph, id_index, -2);
