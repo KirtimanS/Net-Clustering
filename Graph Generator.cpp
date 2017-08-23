@@ -35,6 +35,7 @@ tuple <vector <Node>, map <int, int> > Pop_Graph(map <int, vector <int>> adj)
 map <int, vector <int>> Pop_Map()
 {
 	typedef map<int, vector<int> > AdjacencyList;
+	int EXCEPTION = 0;
 	string line;
 	AdjacencyList al;
 
@@ -44,12 +45,22 @@ map <int, vector <int>> Pop_Map()
 
 		int num;
 		buffer >> num;
+		if (!buffer.eof() && buffer.fail())
+		{
+				cout << num << "Is not an integer!";
+				throw EXCEPTION;
+		}
 
 		auto it = al.insert(make_pair(num, AdjacencyList::mapped_type())).first;
 		
 		while (!buffer.eof()) 
 		{
 		    buffer >> num;
+		    if (!buffer.eof() && buffer.fail())
+		    {
+			cout << num << "Is not an integer!";
+			throw EXCEPTION;
+		    }
 		    it->second.push_back(num);
         	}
     }
