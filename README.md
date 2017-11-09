@@ -1,11 +1,22 @@
-# Net-Clustering
-
+# Sparse-Net-Clustering
+Partitioning large connected graphs into clusters.
 Achieves 3 objectives:
 1. Generates a spine in graphs, approximating the diameter. 
 2. Finds clusterheads(Landmarks) in graphs.  
 3. Assigns clusters nodes to Landmarks. 
 
-Sparse Net Clustering:
+# Getting Started
+### Prerequisites
+* GNU C++11 Compiler
+* Linux OS (Mac OS and Windows would work as well with a little bit of tweaking)
+
+
+### Installing
+
+Linux systems nowadays ship with a native gcc c++11 complier. However, this is not installed by default. To do this a comprehensive guide may be found here: [Installing Compilers](https://help.ubuntu.com/community/InstallingCompilers)
+
+
+### Theory:
 We use an algorithm that takes a graph and clusters the vertices according to their nearness(number of hops) from a cluster center(Landmark). The way in which this is done is as follows:
 
 1. Find the diameter of the graph and make the extremities Landmarks.
@@ -14,6 +25,8 @@ We use an algorithm that takes a graph and clusters the vertices according to th
 4. Choose the maximally distant leaf from the center after majorization and make it a Landmark and remove it from the list of eligible leaves.
 5. Repeat from step 3 till an upper bound for cluster centers is reached.
 
+### Authors:
+* Kirtiman Sinha - 05/2017 - 08/2017
 
 What's the input?
 The input is an adjancency list, in the format as below:
