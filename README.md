@@ -11,7 +11,9 @@ We use an algorithm that takes a graph and clusters the vertices according to th
 
 What's the input?
 The input is an adjancency list, in the format as below:
-'''vertex_id_1 vertex_id_2 vertex_id_3'''
+'''
+vertex_id_1 vertex_id_2 vertex_id_3
+'''
 
 where the above means vertex_id_1 is connected via edges to vertex_id_2 and vertex_id_3. The input has to be taken from stdin. Minor changes can be made to take inout from local machine.
 
