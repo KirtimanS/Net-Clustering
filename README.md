@@ -20,7 +20,9 @@ where the above means vertex_id_1 is connected via edges to vertex_id_2 and vert
 What's the output?
 Their are two outputs:
 1. The first is a list of vertices with their associated landmarks or cluster centers(separated by a 0):
-```vertex_id_1 0 Landmark_1```
+```
+vertex_id_1 0 Landmark_1
+```
 
 2. The second output is the information needed to construct the Sparse Net. This is provided as follows:
   1. The first line after vertex landmark assignment is the vertex_ids for the main Spine.
