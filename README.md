@@ -22,7 +22,7 @@ Linux systems nowadays ship with a native gcc c++11 complier. However, this is n
 
 ### Development:
 
-Development of this binary has been done purely using C++. Since this is the engine on which the main framework for graph exploration is run, we wanted to the code to be as optimized and efficient as possible and hence the use of C++ as opposed to Java or Python.
+Development of this binary has been done purely using C++. Since this is the engine on which the main framework for graph exploration is run, we wanted the code to be as optimized and efficient as possible and hence the use of C++ as opposed to Java or Python.
 
 ### Authors:
 * Kirtiman Sinha - 05/2017 - 08/2017
