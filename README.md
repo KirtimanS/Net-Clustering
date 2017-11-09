@@ -27,6 +27,10 @@ Development of this binary has been done purely using C++. Since this is the eng
 ### Authors:
 * Kirtiman Sinha - 05/2017 - 08/2017
 
+### Acknowledgements:
+
+* [PurpleBooth's comprehensive guide for this README](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 
 
-Developed as a part of the Danish Project. Please drop an email to: kirtiman.sinha14@gmail.com in case of bugs/issues or questions. 
+
+Developed as a part of the Danish Project.  
