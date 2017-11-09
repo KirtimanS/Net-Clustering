@@ -14,8 +14,8 @@ Achieves 3 objectives:
 ### Installing
 
 Linux systems nowadays ship with a native gcc c++11 complier. However, this is not installed by default. To do this a comprehensive guide may be found here: 
-* Ubuntu - [Installing GNU C and GNU C++ Compilers - Ubuntu](https://help.ubuntu.com/community/InstallingCompilers) - (similar steps for other distributions)
-* Windows - [Visual Studio 2017 - C++ Desktop Workload - Recommended](https://www.visualstudio.com/vs/community/)
+* Ubuntu - [Installing GNU C and GNU C++ Compilers](https://help.ubuntu.com/community/InstallingCompilers) - similar steps for other distributions
+* Windows - [Visual Studio 2017 - C++ Desktop Workload](https://www.visualstudio.com/vs/community/) - other compliers may also be used 
 
 
 ### Theory:
