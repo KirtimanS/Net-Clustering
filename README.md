@@ -24,7 +24,8 @@ For other OS:
 * [Package Usage and Algorithm](https://github.com/KirtimanS/Net-Clustering/wiki) 
 
 ### Local Deployment:
-TODO
+Ubuntu - All that's needed is compliling the binary using a g++11 compiler and running it after giving the inputs to stdin. 
+Windows - If you are using 
 
 ### Development:
 
