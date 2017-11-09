@@ -25,7 +25,7 @@ For other OS:
 
 ### Local Deployment:
 Ubuntu - All that's needed is compliling the binary using a g++11 compiler and running it after giving the inputs to stdin. 
-Windows - If you are using 
+Windows - The binary may be compiled by command line arguments(if a c++ compiler is installed)
 
 ### Development:
 
