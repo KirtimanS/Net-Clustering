@@ -44,4 +44,4 @@ vertex_id_1 0 Landmark_1
   
   
 
-Developed as a part of the Danish Project.
+Developed as a part of the Danish Project. Please drop an email to: kirtiman.sinha14@gmail.com in case of bugs/issues or questions. 
