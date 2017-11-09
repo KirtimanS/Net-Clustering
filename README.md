@@ -23,6 +23,9 @@ For other OS:
 ### Quick Link(s): 
 * [Package Usage and Algorithm](https://github.com/KirtimanS/Net-Clustering/wiki) 
 
+### Local Deployment:
+TODO
+
 ### Development:
 
 Development of this binary has been done purely using C++. Since this is the engine on which the main framework for graph exploration is run, we wanted the code to be as optimized and efficient as possible and hence the use of C++ as opposed to Java or Python.
