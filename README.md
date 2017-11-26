@@ -5,6 +5,9 @@ Achieves 3 objectives:
 2. Finds clusterheads(Landmarks) in graphs.  
 3. Assigns clusters nodes to Landmarks. 
 
+### Quick Link(s): 
+* [Package Usage and Algorithm](https://github.com/KirtimanS/Net-Clustering/wiki)  - the Why and Hows.
+
 # Getting Started
 ### Prerequisites
 * GNU C++11 Compiler
@@ -19,9 +22,6 @@ Linux systems nowadays ship with a native gcc c++11 complier. However, this is n
 For other OS:
 * Windows - [Visual Studio 2017 - C++ Desktop Workload](https://www.visualstudio.com/vs/community/) - other compliers may also be used 
 * OS X - [Installing C++ binaries on OS X](https://stackoverflow.com/questions/34340578/installing-c-libraries-on-os-x)
-
-### Quick Link(s): 
-* [Package Usage and Algorithm](https://github.com/KirtimanS/Net-Clustering/wiki) 
 
 ### Local Deployment:
 * Ubuntu - All that's needed is compliling the binary using a g++11 compiler and running it after giving the input(as specified in the wiki) to stdin. 
