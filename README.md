@@ -35,7 +35,7 @@ Development of this binary has been done purely using C++. Since this is the eng
 
 The results look quite promising for an algorithm that tries to simulate k-means. For smaller graphs that are clearly separated the algorithm works spectacularly well. For more complex denser graphs, the clustering isn't as clean. This is done however, on purpose since for some requirements of the project dense hairballs of vertices needed to be broken up as symmetrically as possible.
 
-![alt text](https://github.com/KirtimanS/Net-Clustering/blob/master/2.3.png)
+![alt text](https://github.com/KirtimanS/Net-Clustering/blob/master/2.1.png)
 
 
 ### Authors:
