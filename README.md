@@ -31,6 +31,14 @@ For other OS:
 
 Development of this binary has been done purely using C++. Since this is the engine on which the main framework for graph exploration is run, we wanted the code to be as optimized and efficient as possible and hence the use of C++ as opposed to Java or Python.
 
+## Results:
+
+The results look quite promising for an algorithm that tries to simulate k-means. For smaller graphs that are clearly separated the algorithm works spectacularly well. For more complex denser graphs, the clustering isn't as clean. This is done however, on purpose since for some requirements of the project dense hairballs of vertices needed to be broken up as symmetrically as possible.
+
+
+
+
+
 ### Authors:
 * Kirtiman Sinha - 05/2017 - 08/2017
 
