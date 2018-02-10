@@ -37,6 +37,9 @@ The results look quite promising for an algorithm that tries to simulate k-means
 
 ![alt text](https://github.com/KirtimanS/Net-Clustering/blob/master/2.1.png)
 
+Each colour represents a cluster. However, since this is a screenshot of a 3D graph visualization some clusters look embedded in one another. 
+
+Please bear in mind that the C++ code just gives you the clusters and clsuterheads. The visualization for this was done using D3.js, the code for that isn't attached but the process is trivial.
 
 ### Authors:
 * Kirtiman Sinha - 05/2017 - 08/2017
