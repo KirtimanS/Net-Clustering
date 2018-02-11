@@ -24,7 +24,7 @@ For other OS:
 * OS X - [Installing C++ binaries on OS X](https://stackoverflow.com/questions/34340578/installing-c-libraries-on-os-x)
 
 ### Local Deployment:
-* Ubuntu - All that's needed is compliling the binary using a g++11 compiler and running it after giving the input(as specified in the wiki) to stdin. 
+* Ubuntu - All that's needed is compiling the binaries using a g++11 compiler and running it after giving the input(as specified in the wiki) to stdin. 
 * Windows - The binary may be compiled by command line arguments(if a c++ compiler is installed).
 
 ### Development:
