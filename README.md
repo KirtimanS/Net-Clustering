@@ -39,7 +39,7 @@ The results look quite promising for an algorithm that tries to simulate k-means
 
 Each colour represents a cluster. However, since this is a screenshot of a 3D graph visualization some clusters look embedded in one another. 
 
-# Bear in mind that this package just gives you the clusters and clsuterheads. The visualization for this was done using D3.js, the code for that isn't attached but the process is trivial.
+#### Bear in mind that this package just gives you the clusters and clsuterheads. The visualization for this was done using D3.js, the code for that isn't attached but the process is trivial.
 
 ### Authors:
 * Kirtiman Sinha - 05/2017 - 08/2017
