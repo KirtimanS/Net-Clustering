@@ -1,3 +1,7 @@
+Funded by: NSF: Human-Computer Graph Tele-discovery and Exploration ($1,200,000, Period Covered: 08/15/16 – 10/31/20; CoPI’s: J. Abello (CS-DIMACS, Rutgers) and D. Chau (Georgia Tech) )
+Algorithm Creator: James Abello
+
+
 # Sparse-Net-Clustering
 Partitioning large connected graphs into clusters.
 Achieves 3 objectives:
