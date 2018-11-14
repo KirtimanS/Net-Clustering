@@ -1,5 +1,3 @@
-Funded by: NSF: Human-Computer Graph Tele-discovery and Exploration ($1,200,000, Period Covered: 08/15/16 – 10/31/20; CoPI’s: J. Abello (CS-DIMACS, Rutgers) and D. Chau (Georgia Tech) )
-Algorithm Creator: James Abello
 
 
 # Sparse-Net-Clustering
@@ -49,6 +47,8 @@ Each colour represents a cluster. However, since this is a screenshot of a 3D gr
 * Kirtiman Sinha - 05/2017 - 08/2017
 
 ### Acknowledgements:
+* Funded by: NSF: Human-Computer Graph Tele-discovery and Exploration ($1,200,000, Period Covered: 08/15/16 – 10/31/20; CoPI’s: J. Abello (CS-DIMACS, Rutgers) and D. Chau (Georgia Tech) )
+* Algorithm Creator: James Abello
 
 * [PurpleBooth's comprehensive guide for this README](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 
