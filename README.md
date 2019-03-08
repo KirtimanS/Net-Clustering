@@ -5,7 +5,7 @@ Partitioning large connected graphs into clusters.
 Achieves 3 objectives:
 1. Generates a spine in graphs, approximating the diameter. 
 2. Finds clusterheads(Landmarks) in graphs.  
-3. Assigns clusters nodes to Landmarks. 
+3. Assigns cluster nodes to Landmarks. 
 
 ### Quick Link(s): 
 * [Package Usage and Algorithm](https://github.com/KirtimanS/Net-Clustering/wiki)  - the Why and Hows.
